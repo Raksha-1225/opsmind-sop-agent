@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-const API = import.meta.env.VITE_API_URL || 'http://localhost:5000'
+const API = import.meta.env.VITE_API_URL || 'https://opsmind-backend-cmj0.onrender.com'
 
 function AuthForm({ onLogin }) {
   const [isLogin, setIsLogin] = useState(true)
